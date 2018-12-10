@@ -244,6 +244,7 @@ const Header = styled.header`
   z-index: 10;
   -webkit-app-region: drag;
   padding: 2px;
+  margin-bottom: 20px;
 `;
 
 const LoadingMessage = styled.div`
@@ -277,7 +278,7 @@ const RenderedWindow = styled.div`
   h4,
   h5,
   h6 {
-    color: #82d8d8;
+    color: white;
   }
   h1 {
     border-bottom: solid 3px #e54b4b;
@@ -308,7 +309,7 @@ const FileButton = styled.button`
   &:hover {
     opacity: 1;
     border-left: solid 2px #e54b4b;
-    color: white;
+    color: #939393;
   }
   ${({ active }) =>
     active &&
@@ -319,6 +320,7 @@ const FileButton = styled.button`
   &:hover {
     opacity: 1;
     border-left: solid 4px #e54b4b;
+    color: white;
   }
   `}
   .title {
